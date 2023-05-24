@@ -7,12 +7,12 @@
     ],
     "routes": [
         {
-            "src": "/api/(.*)",
-            "dest": "backend/api/$1"
+            "src": "./",
+            "dest": "backend/"
         },
         {
-            "src": "/(.*)",
-            "dest": "frontend/$1"
+            "src": "./",
+            "dest": "frontend/"
         }
     ]
 }
