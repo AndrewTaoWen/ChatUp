@@ -7,12 +7,12 @@
     ],
     "routes": [
         {
-            "src": "./",
-            "dest": "backend/"
+            "src": ".",
+            "dest": "/backend"
         },
         {
-            "src": "./",
-            "dest": "frontend/"
+            "src": ".",
+            "dest": "/frontend"
         }
     ]
 }
